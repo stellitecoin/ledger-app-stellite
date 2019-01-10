@@ -13,10 +13,19 @@
  * limitations under the License.
  */
 
-#include "os.h"
-#include "cx.h"
-#include "monero_types.h"
-#include "monero_api.h"
-#include "monero_vars.h"
+#ifndef MONERO_UX_MSG_H
+#define MONERO_UX_MSG_H
 
-monero_nv_state_t N_state_pic;
+extern const char * const C_OK;
+extern const char * const C_NOK;
+
+
+#define PICSTR(x)     ((char*)PIC(x))
+
+
+#define OK                PICSTR(C_OK)
+#define NOK               PICSTR(C_NOK)
+
+
+#endif
+

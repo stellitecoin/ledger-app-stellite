@@ -19,10 +19,10 @@
 
 #include "os.h"
 #include "cx.h"
-#include "monero_types.h"
-#include "monero_api.h"
-#include "monero_ux_nanos.h"
-#include "monero_vars.h"
+#include "stellite_types.h"
+#include "stellite_api.h"
+#include "stellite_ux_nanos.h"
+#include "stellite_vars.h"
 
 /* ----------------------------------------------------------------------- */
 /* ---                                                                 --- */

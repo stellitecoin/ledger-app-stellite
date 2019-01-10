@@ -13,9 +13,9 @@
  * limitations under the License.
  */
 #include "os.h"
-#include "monero_types.h"
-#include "monero_api.h"
-#include "monero_vars.h"
+#include "stellite_types.h"
+#include "stellite_api.h"
+#include "stellite_vars.h"
 
 const unsigned char C_MAINNET_NETWORK_ID[] = {
     0x12 ,0x30, 0xF1, 0x71 , 0x61, 0x04 , 0x41, 0x61, 0x17, 0x31, 0x00, 0x82, 0x16, 0xA1, 0xA1, 0x10

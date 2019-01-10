@@ -19,8 +19,8 @@
 #include "os.h"
 #include "cx.h"
 #include "os_io_seproxyhal.h"
-#include "monero_types.h"
-#include "monero_api.h"
+#include "stellite_types.h"
+#include "stellite_api.h"
 
 
 extern monero_v_state_t  G_monero_vstate;
@@ -34,3 +34,4 @@ extern int apdu_n;
 
 extern ux_state_t ux;
 #endif
+
