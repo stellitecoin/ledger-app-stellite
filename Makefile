@@ -26,9 +26,9 @@ APP_LOAD_PARAMS=  --path "2147483692/2147483776" --curve secp256k1 $(COMMON_LOAD
 APPNAME = "Stellite"
 
 ifeq ($(TARGET_NAME),TARGET_BLUE)
-ICONNAME = images/icon_monero_blue.gif
+ICONNAME = images/icon_stellite_blue.gif
 else
-ICONNAME = images/icon_monero.gif
+ICONNAME = images/icon_stellite.gif
 endif
 
 APPVERSION_M=1
