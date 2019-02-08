@@ -22,7 +22,7 @@ endif
 include $(BOLOS_SDK)/Makefile.defines
 
 #Monero /44'/128'
-APP_LOAD_PARAMS=  --path "2147483692/2147483776" --curve secp256k1 $(COMMON_LOAD_PARAMS) --appFlags 0x40
+APP_LOAD_PARAMS=  --path "2147483692/2147492889" --curve secp256k1 $(COMMON_LOAD_PARAMS) --appFlags 0x40
 APPNAME = "Stellite"
 
 ifeq ($(TARGET_NAME),TARGET_BLUE)
@@ -107,7 +107,8 @@ SDK_SOURCE_PATH  += lib_stusb lib_stusb_impl lib_u2f
 
 
 load: all
-	python -m ledgerblue.loadApp $(APP_LOAD_PARAMS)
+	$(error $(APP_LOAD_PARAMS))
+	#python -m ledgerblue.loadApp $(APP_LOAD_PARAMS)
 
 delete:
 	python -m ledgerblue.deleteApp $(COMMON_DELETE_PARAMS)
